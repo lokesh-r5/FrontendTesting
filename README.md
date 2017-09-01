@@ -1,3 +1,7 @@
+Instructons:
+
+Download all the files and open index.html. You can see jamsine test suites on the page. Test suites in green indicates they are passed. If any test unit is in red, then the page not passed that test suite. To play with the tests, read the below steps I did and edit the code. For example, to fail the URL test spec delete URL for any object inside the allFeed array or delete the URL property itself.
+
 Used Jasmine to write a number of tests against a pre-existing application. These will test the underlying business logic of the application as well as the event handling and DOM manipulation.
 
 1. Wrote a test that loops through each feed in the `allFeeds` object and ensures it has a URL defined and that the URL is not empty.
@@ -9,3 +13,4 @@ Used Jasmine to write a number of tests against a pre-existing application. Thes
 4. Wrote a test suite named `"Initial Entries"`. Wrote a test that ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
 
 5. Wrote a test suite named `"New Feed Selection"`. Wrote a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.
+
